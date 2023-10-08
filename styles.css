@@ -454,7 +454,17 @@ BEST
 .solu-textChild_card {
     width: 45%;
     height: 4rem;
-    border: 2px solid teal;
+    border: 2px solid gray;
+    padding:1rem 1rem;
+    border-radius:2rem 0 2rem 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.soluPara{
+   display: flex;
+    gap: .5rem;
 }
 
 .solu-btn {
@@ -754,3 +764,12 @@ FOOTER
     color: whitesmoke;
 }
 
+/* 
+
+SERVICES
+
+*/
+
+.nav-container-service{
+    background-color: black;
+}
