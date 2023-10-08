@@ -773,3 +773,92 @@ SERVICES
 .nav-container-service{
     background-color: black;
 }
+
+
+/* 
+
+ABOUT
+
+*/
+
+.about-first_secCon{
+    background-color: whitesmoke;
+    padding: 3rem 0;
+}
+
+.about-first_secRow{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-first_secParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-first_secHead{
+font-size: 2.5rem;
+}
+
+.about-first_secHeadTwo{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* 
+
+why
+
+*/
+
+.why-container{
+
+}
+
+.why-row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.why-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.whyHead{
+    font-size: 2.5rem;
+    text-align: center;
+    color: gray;
+}
+
+.why-child{
+width: 100%;
+height: 20rem;
+/* border: 2px solid gray; */
+border-radius: 3rem 0 3rem 0;
+background-color: whitesmoke;
+padding: 4rem 2rem;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.child-color{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.whyParaHead{
+    border-bottom: 2px solid black;
+    width: 4.5rem;
+}
+
+.borderTwo{
+    border-bottom: 2px solid whitesmoke;
+}
