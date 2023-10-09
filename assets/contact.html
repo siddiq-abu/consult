@@ -1,31 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    <nav>
+    <section id="hero">
 
-        <div class="nav-container-service">
+        <nav>
 
-            <div class="nav-row">
+            <div class="nav-container">
 
-                <h1 class="logo">StartUp</h1>
+                <div class="nav-row">
 
-                <ul class="nav-links">
-                    <a class="nav-link" href="">About Us</a>
-                    <a class="nav-link" href="">Services</a>
-                    <a class="nav-link" href="">Our Team</a>
+                    <h1 class="logo">StartUp</h1>
 
-                </ul>
+                    <ul class="nav-links">
+                        <a class="nav-link" href="">About Us</a>
+                        <a class="nav-link" href="">Services</a>
+                        <a class="nav-link" href="">Our Team</a>
 
-                <div class="nav-btn_area">
+                    </ul>
 
-                    <a class="nav-link" href="">Contact Us</a>
-                    <button class="nav-btn">Get Started</button>
+                    <div class="nav-btn_area">
+
+                        <a class="nav-link" href="">Contact Us</a>
+                        <button class="nav-btn">Get Started</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <header>
+
+            <div class="header-container">
+
+                <div class="header-row">
+
+                    <div class="header-text_area">
+
+                        <h1 class="header-text">
+                            Contact Us
+                        </h1>
+
+                        <p class="header-para">Lorem ipsum dolor sit met consectetur adipisicing elit. Unde maiores
+                            deserunt molestias minima. Optio, nihil numquam repellendus cum quibusdam nulla, nostrum
+                        </p>
+
+                        <!-- <button class="header-btn">Explore</button> -->
+
+                    </div>
+
+                    <div class="header-img_area">
+
+                        <div class="header-card_area-one">
+                            <div class="img-card_one"></div>
+                            <div class="img-card_two"></div>
+                        </div>
+
+                        <div class="header-card_area-one">
+                            <div class="img-card_three"></div>
+                            <div class="img-card_four"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+    </section>
+
+    <main>
+
+        <section id="conPage-sec_area">
+
+            <div class="conPage-container">
+
+                <div class="conPage-row">
+
+                    <div class="conPage-parent">
+
+                        <h2 class="conPage-head">Need some help?</h2>
+
+                        <h2 class="conPage-head">Send us a message by email:</h2>
+
+                        <h2 class="conPage-head conPage-color">Contact@BestBridge.com</h2>
+
+                        <h2 class="conPage-head">We believe the best way to help is with a short call. Please email use at
+                            the address above or use the contact form below. This quick call will help us to align to
+                            your needs. Initial consultations are always free.</h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+            <!-- 
+        
+        FORMS
+    
+     -->
+    <section id="forms">
+        <div class="forms-row">
+            <fieldset>
+                <label for="">Name*</label>
+                <input type="text" placeholder="Full Name" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="">Phone*</label>
+                <input type="number" placeholder="Contact" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="">Email*</label>
+                <input type="email" placeholder="Eg: jonhdoe@gmail.com" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="">Country*</label>
+                <select name="Country">
+                    <option value="">Country</option>
+                    <option value="">Ghana</option>
+                    <option value="">Togo</option>
+                    <option value="">Nigeria</option>
+                    <option value="">Benin</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="">Message*</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <div class="btw-forms">
+                <button class="form-btw">Submit</button>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="address">
+
+
+        <div class="address-row">
+
+            <div class="address-box">
+                <i class="fa-regular fa-address-book add-icon"></i>
+                <h3 class="add-head">ADDRESS</h3>
+                <p class="add-para">27 13 Lowe Haven</p>
+            </div>
+
+            <div class="address-box">
+                <i class="fa-solid fa-phone-volume add-icon"></i>
+                <h3 class="add-head">PHONE</h3>
+                <p class="add-para">+111 343 4334</p>
+            </div>
+
+            <div class="address-box">
+                <i class="fa-solid fa-envelope add-icon"></i>
+                <h3 class="add-head">E-MAIL</h3>
+                <p class="add-para">BestBridge@info.com</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    </main>
+
+    <footer>
+
+        <div class="foot-container">
+
+            <div class="foot-row">
+
+                <div class="foot-parent">
+
+                    <div class="foot-parentText">
+
+                        <small class="foot-smallHead">CONTACT</small>
+                        <h2 class="foot-head">Take advantage of expert knowledge</h2>
+                        <p class="foot-para">Feel free to get in touch with us via email or phone</p>
+
+                        <div class="foot-mailPhone">
+                            <small class="foot-mail">info@bestbridge.com</small>
+                            <small class="foot-phone">+233 030008100</small>
+                        </div>
+
+                    </div>
+
+                    <div class="foot-btn_area">
+                        <button class="foot-btn">Let's talk</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-row">
+
+                <div class="footer-parent">
+
+                    <h1 class="footer-logo">StartUp</h1>
+                    
+                    <ul class="nav-links">
+                        <a class="nav-link" href="">About Us</a>
+                        <a class="nav-link" href="">Services</a>
+                        <a class="nav-link" href="">Our Team</a>
+                        <a class="nav-link" href="">Contact Us</a>
+                    </ul>
+
+                    <small class="copy">Copyright &copy2023-bestbridge</small>
 
                 </div>
 
@@ -33,6 +234,8 @@
 
         </div>
 
-    </nav>
+    </footer>
+    
 </body>
+
 </html>
