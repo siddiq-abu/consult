@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section id="forms">
+
+        <div class="forms-row re-height">
+
+            <form action="https://formspree.io/f/mrgwrlyr" method="POST">
+                <fieldset>
+                    <label for="">Name*</label>
+                    <input type="text" placeholder="Full Name" name="fname" required>
+                </fieldset>
+
+                <fieldset>
+                    <label for="">Phone*</label>
+                    <input type="number" placeholder="Contact" name="number" required>
+                </fieldset>
+
+                <fieldset>
+                    <label for="">Email*</label>
+                    <input type="email" placeholder="Eg: jonhdoe@gmail.com" name="email" required>
+
+                </fieldset>
+                <fieldset>
+                    <label for="">Training*</label>
+                    <select name="Training">
+                        <option value="">Training Services</option>
+                        <option value="">Leadership Development</option>
+                        <option value="">Personal Development</option>
+                        <option value="">Executive Development</option>
+                        <option value="">Entrepreneurial Development</option>
+                    </select>
+                </fieldset>
+
+                <!-- <fieldset>
+                    <label for="">Message*</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </fieldset> -->
+                <div class="btw-forms">
+                    <button type="submit" class="form-btw">Submit</button>
+                </div>
+            </form>
+
+        </div>
+
+    </section>
+</body>
+</html>

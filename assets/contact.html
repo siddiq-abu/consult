@@ -17,19 +17,21 @@
 
                 <div class="nav-row">
 
-                    <h1 class="logo">StartUp</h1>
+                    <img class="logo" src="./consult-logo-1-croped.png" alt="">
 
                     <ul class="nav-links">
-                        <a class="nav-link" href="">About Us</a>
-                        <a class="nav-link" href="">Services</a>
-                        <a class="nav-link" href="">Our Team</a>
+
+                        <a class="nav-link" href="./index.html">Home</a>
+                        <a class="nav-link" href="./Training.html">Training</a>
+                        <a class="nav-link" href="./consulting.html">Consulting</a>
 
                     </ul>
 
                     <div class="nav-btn_area">
-
-                        <a class="nav-link" href="">Contact Us</a>
-                        <button class="nav-btn">Get Started</button>
+                        
+                        <a class="nav-link" href="./about.html">About Us</a>
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                        <!-- <button class="nav-btn">Get Started</button> -->
 
                     </div>
 
@@ -82,6 +84,8 @@
     </section>
 
     <main>
+<section id="highlight">
+
 
         <section id="conPage-sec_area">
 
@@ -97,7 +101,8 @@
 
                         <h2 class="conPage-head conPage-color">Contact@BestBridge.com</h2>
 
-                        <h2 class="conPage-head">We believe the best way to help is with a short call. Please email use at
+                        <h2 class="conPage-head">We believe the best way to help is with a short call. Please email use
+                            at
                             the address above or use the contact form below. This quick call will help us to align to
                             your needs. Initial consultations are always free.</h2>
 
@@ -109,79 +114,83 @@
 
         </section>
 
-            <!-- 
+        <!-- 
         
         FORMS
     
      -->
-    <section id="forms">
-        <div class="forms-row">
-            <fieldset>
-                <label for="">Name*</label>
-                <input type="text" placeholder="Full Name" required>
-            </fieldset>
+        <section id="forms">
 
-            <fieldset>
-                <label for="">Phone*</label>
-                <input type="number" placeholder="Contact" required>
-            </fieldset>
+            <div class="forms-row">
 
-            <fieldset>
-                <label for="">Email*</label>
-                <input type="email" placeholder="Eg: jonhdoe@gmail.com" required>
-            </fieldset>
+                <form action="https://formspree.io/f/mrgwrlyr" method="POST">
+                    <fieldset>
+                        <label for="">Name*</label>
+                        <input type="text" placeholder="Full Name" name="fname" required>
+                    </fieldset>
 
-            <fieldset>
-                <label for="">Country*</label>
-                <select name="Country">
-                    <option value="">Country</option>
-                    <option value="">Ghana</option>
-                    <option value="">Togo</option>
-                    <option value="">Nigeria</option>
-                    <option value="">Benin</option>
-                </select>
-            </fieldset>
+                    <fieldset>
+                        <label for="">Phone*</label>
+                        <input type="number" placeholder="Contact" name="number" required>
+                    </fieldset>
 
-            <fieldset>
-                <label for="">Message*</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </fieldset>
-            <div class="btw-forms">
-                <button class="form-btw">Submit</button>
+                    <fieldset>
+                        <label for="">Email*</label>
+                        <input type="email" placeholder="Eg: jonhdoe@gmail.com" name="email" required>
+
+                    </fieldset>
+                    <fieldset>
+                        <label for="">Country*</label>
+                        <select name="Country">
+                            <option value="">Country</option>
+                            <option value="">Ghana</option>
+                            <option value="">Togo</option>
+                            <option value="">Nigeria</option>
+                            <option value="">Benin</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="">Message*</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </fieldset>
+                    <div class="btw-forms">
+                        <button type="submit" class="form-btw">Submit</button>
+                    </div>
+                </form>
+
             </div>
 
+        </section>
 
-        </div>
+        <section id="address">
+
+
+            <div class="address-row">
+
+                <div class="address-box">
+                    <i class="fa-regular fa-address-book add-icon"></i>
+                    <h3 class="add-head">ADDRESS</h3>
+                    <p class="add-para">27 13 Lowe Haven</p>
+                </div>
+
+                <div class="address-box">
+                    <i class="fa-solid fa-phone-volume add-icon"></i>
+                    <h3 class="add-head">PHONE</h3>
+                    <p class="add-para">+111 343 4334</p>
+                </div>
+
+                <div class="address-box">
+                    <i class="fa-solid fa-envelope add-icon"></i>
+                    <h3 class="add-head">E-MAIL</h3>
+                    <p class="add-para">BestBridge@info.com</p>
+                </div>
+
+            </div>
+
+        </section>
 
     </section>
-
-    <section id="address">
-
-
-        <div class="address-row">
-
-            <div class="address-box">
-                <i class="fa-regular fa-address-book add-icon"></i>
-                <h3 class="add-head">ADDRESS</h3>
-                <p class="add-para">27 13 Lowe Haven</p>
-            </div>
-
-            <div class="address-box">
-                <i class="fa-solid fa-phone-volume add-icon"></i>
-                <h3 class="add-head">PHONE</h3>
-                <p class="add-para">+111 343 4334</p>
-            </div>
-
-            <div class="address-box">
-                <i class="fa-solid fa-envelope add-icon"></i>
-                <h3 class="add-head">E-MAIL</h3>
-                <p class="add-para">BestBridge@info.com</p>
-            </div>
-
-        </div>
-
-    </section>
-
     </main>
 
     <footer>
@@ -206,7 +215,7 @@
                     </div>
 
                     <div class="foot-btn_area">
-                        <button class="foot-btn">Let's talk</button>
+                        <button class="foot-btn"><a class="foot-btn_an" href="./contact.html">Let's talk</a></button>
                     </div>
 
                 </div>
@@ -218,7 +227,7 @@
                 <div class="footer-parent">
 
                     <h1 class="footer-logo">StartUp</h1>
-                    
+
                     <ul class="nav-links">
                         <a class="nav-link" href="">About Us</a>
                         <a class="nav-link" href="">Services</a>
@@ -235,7 +244,7 @@
         </div>
 
     </footer>
-    
+
 </body>
 
 </html>
