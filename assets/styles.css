@@ -7,6 +7,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+
+.nav-menu{
+  display: none;
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -56,10 +61,10 @@ nav {
   transform: translateY(1px);
 }
 
-.nav-btn_area {
+/* .nav-btn_area {
   display: flex;
   gap: 3rem;
-}
+} */
 
 .nav-btn {
   background-color: whitesmoke;
@@ -83,7 +88,31 @@ NAV END
 */
 
 header{
-  background-image: linear-gradient(rgba(75, 73, 73, 0.50),rgba(75, 73, 73, 0.50)),url(./hero-2.webp);
+  background-image: linear-gradient(rgba(75, 73, 73, 0.50),rgba(75, 73, 73, 0.50)),url(./home-hero-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-hero{
+  background-image: linear-gradient(rgba(75, 73, 73, 0.50),rgba(75, 73, 73, 0.50)),url(./chart-img-removebg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.train{
+  background-image: linear-gradient(rgba(75, 73, 73, 0.50),rgba(75, 73, 73, 0.50)),url(./train-crop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.consult-hero{
+  background-image: linear-gradient(rgba(75, 73, 73, 0.50),rgba(75, 73, 73, 0.50)),url(./header_management-consulting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-us_img{
+  background-image: linear-gradient(rgba(75, 73, 73, 0.50),rgba(75, 73, 73, 0.50)),url(./con-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -112,9 +141,10 @@ header{
 }
 
 .header-para {
-  width: 30rem;
-  font-size: 0.9rem;
+  width: 35rem;
+  font-size: 2.5rem;
   color: whitesmoke;
+  font-weight: bold;
 }
 
 .header-fig {
@@ -244,13 +274,14 @@ MAIN
 
 .bus-text_area {
   width: 50%;
-  height: 25rem;
+  height: 20rem;
   /* border: 2px solid lightblue; */
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 1.5rem;
+  /* padding: 1.5rem; */
+  margin-bottom: 3.5rem;
 }
 
 .bus-img {
@@ -297,21 +328,7 @@ MAIN
 
 */
 
-.solution-container {
-  background-color: white;
-  
-}
 
-.solution-row {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 4rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-}
 
 .solution-small_head {
   color: gray;
@@ -332,7 +349,7 @@ MAIN
 
 .solu-parent {
   width: 100%;
-  height: 100rem;
+  height: 50rem;
   /* border: 2px solid lightblue; */
   display: flex;
   flex-direction: column;
@@ -395,9 +412,6 @@ MAIN
   border: 2px solid gray;
   padding: 1rem 1rem;
   border-radius: 2rem 0 2rem 0;
-  /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .soluPara {
@@ -750,8 +764,10 @@ ABOUT
 }
 
 .about-first_secHead {
-  font-size: 2.5rem;
+  font-size: 1.3rem;
+  width: 75%;
   text-align: center;
+  color: rgb(94, 92, 92);
 }
 
 .about-first_secHeadTwo {
@@ -777,7 +793,8 @@ why
 
 .why-parent {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
   gap: 3rem;
 }
 
@@ -788,7 +805,7 @@ why
 }
 
 .why-child {
-  width: 100%;
+  width: 30%;
   height: 15rem;
   /* border: 2px solid gray; */
   border-radius: 3rem 0 3rem 0;
@@ -837,7 +854,7 @@ CONTACT-PAGE
 }
 
 .conPage-head {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -973,7 +990,8 @@ TEAM
 .team-first_secParent{
     padding: 4rem 0;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    justify-content: center;
     gap: 1.5rem;
 }
 
@@ -984,9 +1002,10 @@ TEAM
 }
 
 .team-first_secHeadTwo{
-    font-size: 2.5rem;
-    width: 100%;
+    font-size: 1.3rem;
+    width: 75%;
     text-align: center;
+    color: rgb(94, 92, 92);
 }
 
 .theTeam-row{
@@ -1033,11 +1052,29 @@ pro
 
 */
 
+.solution-container {
+  background-color: white;
+  
+}
+
+.solution-row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  /* margin-top: 10rem; */
+}
+
 .program-parent {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   margin: 2rem 0;
+  /* height: 60rem; */
 }
 
 .program-header {
@@ -1147,8 +1184,26 @@ REQUEST
 
 
 
+    /* 
     
+    DROP 
+    
+    */
 
+.dropH{
+font-size: 1.5rem;
+padding: .5rem ;
+}
 
+.dropP{
+  font-size: .8rem ;
+  font-weight: bold;
+  width: 30rem;
+  padding: 0 .5rem ;
+}
+
+.dropPadding{
+  padding: 0  .5rem .5rem .5rem;
+}
 
 

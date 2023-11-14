@@ -4,8 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Consulting</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./media.css">
+    <script src="./consulting.js" defer></script>
+    <!-- icon  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
 </head>
 
 <body>
@@ -24,16 +28,12 @@
                     <a class="nav-link" href="./index.html">Home</a>
                     <a class="nav-link" href="./Training.html">Training</a>
                     <a class="nav-link" href="./consulting.html">Consulting</a>
-
-                </ul>
-
-                <div class="nav-btn_area">
-
                     <a class="nav-link" href="./about.html">About Us</a>
                     <a class="nav-link" href="./contact.html">Contact Us</a>
-                    <!-- <button class="nav-btn">Get Started</button> -->
+                </ul>
 
-                </div>
+                <button id="open-menu-btn" class="nav-menu"><i class="uil uil-bars"></i></button>
+                <button id="close-menu-btn" class="nav-menu"><i class="uil uil-multiply"></i></button>
 
             </div>
 
@@ -41,7 +41,7 @@
 
     </nav>
 
-    <header>
+    <header class="consult-hero">
 
         <div class="header-container">
 
@@ -49,9 +49,9 @@
 
                 <div class="header-text_area">
 
-                    <h1 class="header-text">
+                    <!-- <h1 class="header-text">
                         Consulting
-                    </h1>
+                    </h1> -->
 
                     <p class="header-para">Solutions You Can Trust
                     </p>
@@ -128,7 +128,7 @@
                             <div class="program-child_Card">
 
                                 <figure class="pro-fig">
-                                    <img class="pro-img" src="./assets/images-pro1.jpg" alt="">
+                                    <img class="pro-img" src="./cons-1.jpg" alt="">
                                 </figure>
 
                                 <div class="pro-textArea">
@@ -136,7 +136,8 @@
                                     <p class="proParaTwo">We provide the following services; Business development plan ,
                                         Business Analysis , Marketing strategy , Growth and expansion strategy and
                                         Brands strategy and development.</p>
-                                    <button class="pro-btn">Send a request</button>
+                                        <button class="pro-btn"><a class="pro-btn_ana" href="./request.html">Send a
+                                            request</a></button>
                                 </div>
 
                             </div>
@@ -144,14 +145,15 @@
                             <div class="program-child_Card">
 
                                 <figure class="pro-fig">
-                                    <img class="pro-img" src="./assets/image-pro3.png" alt="">
+                                    <img class="pro-img" src="./Technology-solu.jpg" alt="">
                                 </figure>
 
                                 <div class="pro-textArea">
                                     <p class="proParaOne">Technology Solution</p>
                                     <p class="proParaTwo">We provide the following services,website design and
                                         development,Digital marketing ,Graphic design and Printing.</p>
-                                    <button class="pro-btn">Send a request</button>
+                                        <button class="pro-btn"><a class="pro-btn_ana" href="./request.html">Send a
+                                            request</a></button>
                                 </div>
 
                             </div>
@@ -214,8 +216,8 @@
                         <p class="foot-para">Feel free to get in touch with us via email or phone</p>
 
                         <div class="foot-mailPhone">
-                            <small class="foot-mail">info@bestbridge.com</small>
-                            <small class="foot-phone">+233 030008100</small>
+                            <small class="foot-mail">info.bestbridgetc@gmail.com</small>
+                            <small class="foot-phone">+233 50-085-9292</small>
                         </div>
 
                     </div>

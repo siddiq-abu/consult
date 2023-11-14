@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- icon  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
 </head>
 
 <body>
@@ -30,16 +32,12 @@
                     <a class="nav-link" href="./index.html">Home</a>
                     <a class="nav-link" href="./Training.html">Training</a>
                     <a class="nav-link" href="./consulting.html">Consulting</a>
-
-                </ul>
-
-                <div class="nav-btn_area">
-
                     <a class="nav-link" href="./about.html">About Us</a>
                     <a class="nav-link" href="./contact.html">Contact Us</a>
-                    <!-- <button class="nav-btn">Get Started</button> -->
+                </ul>
 
-                </div>
+                <button id="open-menu-btn" class="nav-menu"><i class="uil uil-bars"></i></button>
+                <button id="close-menu-btn" class="nav-menu"><i class="uil uil-multiply"></i></button>
 
             </div>
 
@@ -55,15 +53,7 @@
 
                 <div class="header-text_area">
 
-                    <h1 class="header-text">
-                        Training And Business Solutions You Can Trust
-                    </h1>
-
-                    <!-- <p class="header-para">Lorem ipsum dolor sit met consectetur adipisicing elit. Unde maiores
-                            deserunt molestias minima. Optio, nihil numquam repellendus cum quibusdam nulla, nostrum
-                        </p> -->
-
-                    <!-- <button class="header-btn">Explore</button> -->
+                
 
                 </div>
 
@@ -127,23 +117,83 @@
                     <div class="bus-Parent">
 
                         <figure class="bus-img_area">
-                            <img class="bus-img" src="./business-consultant.webp" alt="">
+                            <img class="bus-img" src="./business-dev.jpg" alt="">
                         </figure>
 
                         <div class="bus-text_area">
 
                             <h2 class="bus-head">Our unique approach.</h2>
 
-                            <p class="bus-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae qui
-                                autem repellat,
-                                accusamus reiciendis dignissimos quo officiis nobis unde eveniet consequatur,
-                                s dolorum, adipisci cum reprehenderit a.</p>
+                            <!-- <div class="dropdown"> -->
+                                <!-- <button class="bus-btn bus-drop_para dropbtn" onclick="myFunction()" aria-hidden="true"> -->
+                                    <!-- <i class="fa fa-chevron-circle-down dropbtn" aria-hidden="true"
+                                        ></i> -->
+                                    <!-- Explore -->
+                                <!-- </button> -->
+                                <!-- id="myDropdown" -->
+                                <div  class="dropdown">
 
-                            <p class="bus-drop_para"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i>Best &
-                                Perfect Business Solutions</p>
-                            <p class="bus-drop_para"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i>Account
-                                & Timely Business Information</p>
-                            <button class="bus-btn">Explore</button>
+                                    <h3 class="dropH">Business Solutions</h3>
+                                    <p class="dropP">We take time to understand the unique challenges and opportunities
+                                        facing
+                                        businesses and develop solutions that are fit for the organizations specific
+                                        needs. We find out what is holding your business back from being more
+                                        profitable. We ensure solutions address current and future challenges.
+                                    </p>
+
+                                    <h3 class="dropH">Executive Education</h3>
+                                    <p class="dropP">
+                                        Bestbridge adopts a combination of delivery methods to embrace the dynamic
+                                        nature of adult learning. We combine traditional classroom setting with cutting
+                                        edge digital platforms, ensuring participants receive a holistic and engaging
+                                        training experience.
+                                    </p>
+
+                                    <h3 class="dropH">Feedback</h3>
+                                    <p class="dropP dropPadding">We ask you to evaluate us, did the solution meet your
+                                        expectations? did it
+                                        solve a specific problem or problems?
+                                    </p>
+
+                                </div>
+                            <!-- </div> -->
+
+                            <!-- <div class="dropdown">
+                                <p class="bus-drop_para">
+                                    <i class="fa fa-chevron-circle-down dropbtn" aria-hidden="true"
+                                        onclick="myFunction()"></i>
+                                    Executive Education
+                                </p>
+
+                                <div id="myDropdown" class="dropdown-content">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magni! Nobis,
+                                        magnam? Repellat asperiores harum modi perspiciatis quia recusandae impedit
+                                        corrupti, repellendus dignissimos vero quibusdam iste mollitia sed tempora sint?
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <p class="bus-drop_para">
+                                    <i class="fa fa-chevron-circle-down dropbtn" aria-hidden="true"
+                                        onclick="myFunction()"></i>
+                                    Feedback
+                                </p>
+
+                                <div id="myDropdown" class="dropdown-content">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magni! Nobis,
+                                        magnam? Repellat asperiores harum modi perspiciatis quia recusandae impedit
+                                        corrupti, repellendus dignissimos vero quibusdam iste mollitia sed tempora sint?
+                                    </p>
+                                </div>
+                            </div> -->
+
+
+                            <!-- <p class="bus-drop_para"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                Executive Education </p> -->
+                            <!-- <p class="bus-drop_para"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+                                Feedback </p> -->
+                            <!-- <button class="bus-btn">Explore</button> -->
                         </div>
 
                     </div>
@@ -164,7 +214,7 @@
         
         -->
 
-      
+
 
 
 
@@ -193,11 +243,10 @@
 
                                 <img class="test-quote" src="./quote-mark-2.png" alt="">
 
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis
+                                <p class="test-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Voluptatem quis
                                     quam
                                     voluptate ipsa corrupti libero eaque obcaecati asperiores
-                                    exercitationem, itaque
-                                    beatae est facilis cupiditate similique dolores suscipit sed aperiam
                                     voluptates!</p>
 
                                 <div class="client-name_test">
@@ -231,13 +280,11 @@
 
                         <div class="con-text_area">
                             <h2 class="con-textHead">Get started with us today.</h2>
-                            <p class="con-textPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-                                eligendi eius quaerat
-                                consequuntur reprehenderit itaque!</p>
+                            <p class="con-textPara">Training And Business Solutions You Can Trust</p>
                         </div>
 
                         <div class="con-btnArea">
-                            <button class="get-btn">Get Started</button>
+                            <!-- <button class="get-btn">Get Started</button> -->
                             <button class="con-btn"><a class="con-btn_an" href="./contact.html">Contact Us</a></button>
                         </div>
 
@@ -268,8 +315,8 @@
                         <p class="foot-para">Feel free to get in touch wwith us via email or phone</p>
 
                         <div class="foot-mailPhone">
-                            <small class="foot-mail">info@bestbridge.com</small>
-                            <small class="foot-phone">+233 030008100</small>
+                            <small class="foot-mail">info.bestbridgetc@gmail.com</small>
+                            <small class="foot-phone">+233 50-085-9292</small>
                         </div>
 
                     </div>
