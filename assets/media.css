@@ -280,14 +280,67 @@ HOME PAGE
     text-align: center;
   }
 
+  .test-container {
+    background-color: whitesmoke;
+    height: 50rem;
+    padding: 13rem 0;
+  }
+
+  .test-row {
+    width: 100%;
+    max-width: 575px;
+    margin: 0 auto;
+  }
+
+  .test-parent {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 5rem;
+  }
+
   .test-child {
     width: 90%;
-    height: 22rem;
+    height: 15rem;
     border: 2px solid teal;
-    border-radius: 10rem 0 10rem 10rem;
+    border-radius: 1.5rem 0;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
+  }
+
+  .test-head {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .test-textArea {
+    width: 90%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 2rem 1rem;
+  }
+
+  /* .test-fig {
+    width: 30%;
+    height: 8rem;
+    border: 5px solid teal;
+    border-radius: 50%;
+  } */
+
+  .test-quote {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .test-lorem{
+    width: 28rem;
+    text-align: start;
+    font-size: .8rem;
   }
 
   .test-fig {
@@ -719,9 +772,9 @@ contact
 
   .test-child {
     width: 90%;
-    height: 15rem;
+    height: 18rem;
     border: 2px solid teal;
-    border-radius: 10rem 0 10rem 10rem;
+    border-radius: 1.5rem 0;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -733,28 +786,28 @@ contact
   }
 
   .test-textArea {
-    width: 60%;
+    width: 90%;
     height: 15rem;
     display: flex;
     flex-direction: column;
     gap: .5rem;
-    padding: 3rem;
+    padding: 1.5rem 1rem;
   }
 
-  .test-fig {
+  /* .test-fig {
     width: 30%;
     height: 8rem;
     border: 5px solid teal;
     border-radius: 50%;
-  }
+  } */
 
   .test-quote {
     width: 2rem;
-    height: 2.3rem;
+    height: 2rem;
   }
 
   .test-lorem{
-    width: 11rem;
+    width: 20rem;
     text-align: start;
     font-size: .8rem;
   }
